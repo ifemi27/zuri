@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#topbar-container{
+display: flex;
+justify-content: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#topbar-container a {
+    color: #393C41;
+}
+
+#navbar-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    margin-bottom: -70px;
+
+}
+
+#navbar-container li{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#hero-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD");
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
+    }
